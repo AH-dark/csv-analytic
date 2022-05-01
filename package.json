@@ -20,7 +20,7 @@
   },
   "main": "./src/app.ts",
   "bin": {
-    "csv-analytic": "./lib/app.js"
+    "csv-analytic": "./lib/cli.js"
   },
   "license": "MIT",
   "dependencies": {
