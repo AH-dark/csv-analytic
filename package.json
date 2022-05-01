@@ -1,0 +1,36 @@
+{
+  "name": "csv-analytic",
+  "version": "1.0.0",
+  "description": "Analysis statistics csv table",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AH-dark/csv-analytic"
+  },
+  "keywords": [
+    "csv",
+    "analytics",
+    "analytic",
+    "csv analytic",
+    "stat"
+  ],
+  "author": {
+    "email": "ahdark@outlook.com",
+    "name": "AHdark",
+    "url": "https://ahdark.com"
+  },
+  "main": "./src/app.ts",
+  "bin": {
+    "csv-analytic": "./lib/app.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.30",
+    "prettier": "^2.6.2"
+  },
+  "scripts": {
+    "build": "npx tsc"
+  }
+}
